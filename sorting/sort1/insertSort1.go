@@ -52,20 +52,30 @@
 package main
 
 import (
-	"bufio"
+"bufio"
 	"fmt"
 	"io"
 	"log"
 	"os"
 	"strconv"
 	"strings"
+	"path/filepath"
 )
 
 func main() {
 	// ============================================
 	// БЛОК 1: ОТКРЫТИЕ ФАЙЛА
 	// ============================================
-	file, err := os.Open("input.txt")
+	index:=1
+	if len(os.Args)>1{
+		indx,err:=strconv.Atoi(os.Args[1])
+		if err!=nil||indx<0{
+			log.Fatal("wrong input")	
+		}
+		index=indx	
+	}
+path := filepath.Join("..", "..","input.txt")
+file, err := os.Open(path)
 	if err != nil {
 		log.Fatal("didn't open file")
 		return
@@ -116,7 +126,7 @@ func main() {
 	// Берем нужный массив из файла.
 	// Индекс можно менять в зависимости от того, какой массив нужно сортировать.
 	// matrix[1] — первый массив, matrix[2] — второй, matrix[3] — третий и т.д.
-	arr := matrix[1]
+	arr := matrix[index]
 
 	// Защита от некорректных данных:
 	// 1. Если в строке больше чисел, чем N — обрезаем до N.
