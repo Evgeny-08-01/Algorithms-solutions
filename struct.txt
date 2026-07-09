@@ -1,0 +1,34 @@
+Алгоритм	                       Когда использовать	                                                         Новые пути к файлам
+
+Two Pointers	                   Работа с массивами, где нужно сравнивать элементы с разных концов
+                                   или использовать медленный/быстрый указатель	                                  two_pointers_move_zeroes.go
+                                                                                                                  two_pointers_remove_element.go
+
+Linear Search	                   Простой перебор всех элементов	                                              linear_find_max.go
+                                                                                                                  linear_min_adjacent_diff.go
+                                                                                                                  linear_last_even.go
+
+Binary Search	                   Поиск в отсортированном массиве за O(log n)	                                  search_binary_insert_position.go
+                                                                                                                  search_binary_sqrt.go
+
+Binary Search by Answer	           Когда нужно найти минимальное/максимальное значение,
+                                   удовлетворяющее условию	                                                      search_binary_min_square.go
+
+                                                                                                                  search_binary_print_time.go
+Exponential Search	               Поиск в отсортированном массиве, когда размер неизвестен 
+                                   или для поиска границ	                                                      search_exponential_range.go
+
+                                                                                                                  search_exponential_index.go
+Ternary Search	                   Поиск в отсортированном массиве (деление на 3 части)	                          search_ternary_recursive.go
+                                                                                                                  search_ternary_iterative.go
+
+Sorting (Insert/Quick)	           Сортировка массивов	                                                          insertSort1.go
+                                                                                                                  insertSort2.go
+                                                                                                                  insertSort3.go
+                                                                                                                  quick_sort.go
+
+Recursion	                       Рекурсивные алгоритмы (факториал)	                                          recursion_factorial_debug.go
+
+OOP/Interfaces	                   Полиморфизм, интерфейсы	                                                      oop_notification_interface.go
+
+IO	                               Чтение/запись данных из файлов	                                              io_read_matrix.go
