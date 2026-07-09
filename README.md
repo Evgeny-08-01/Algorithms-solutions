@@ -8,35 +8,35 @@
 
 ```
 Algorithms-solutions/
+
 ├── sorting/
-│   ├── insertSort1.go              # Сортировка вставками (поиск слева + swap)
-│   ├── insertSort2.go              # Сортировка вставками (классический swap)
-│   ├── insertSort3.go              # Сортировка вставками (классический сдвиг)
-│   ├── merge_sort.go               # Сортировка слиянием (оптимизированная)
-│   ├── quick_sort_mine.go          # Быстрая сортировка (моя реализация)
-│   ├── quick_sort_standart.go      # Быстрая сортировка (стандартная)
-│   └── counting_sort.go            # Сортировка подсчётом
+│ ├── insertSort1.go # Сортировка вставками (поиск слева + swap)
+│ ├── insertSort2.go # Сортировка вставками (классический swap)
+│ ├── insertSort3.go # Сортировка вставками (классический сдвиг)
+│ ├── merge_sort.go # Сортировка слиянием (оптимизированная)
+│ ├── quick_sort_mine.go # Быстрая сортировка (моя реализация)
+│ ├── quick_sort_standart.go # Быстрая сортировка (стандартная)
+│ └── counting_sort.go # Сортировка подсчётом
 ├── search/
-│   ├── binary/
-│   │   ├── search_binary_insert_position.go   # Бинарный поиск позиции вставки
-│   │   ├── search_binary_sqrt.go              # Бинарный поиск квадратного корня
-│   │   ├── search_binary_min_square.go        # Бинарный поиск по ответу (квадрат)
-│   │   └── search_binary_print_time.go        # Бинарный поиск по ответу (время)
-│   ├── exponential/
-│   │   ├── search_exponential_index.go        # Экспоненциальный поиск индекса
-│   │   └── search_exponential_range.go        # Экспоненциальный поиск диапазона
-│   └── ternary/
-│       ├── search_ternary_iterative.go        # Тернарный поиск (итеративный)
-│       └── search_ternary_recursive.go        # Тернарный поиск (рекурсивный)
+│ ├── binary/
+│ │ ├── search_binary_insert_position.go # Бинарный поиск позиции вставки
+│ │ ├── search_binary_sqrt.go # Бинарный поиск квадратного корня
+│ │ ├── search_binary_min_square.go # Бинарный поиск по ответу (квадрат)
+│ │ └── search_binary_print_time.go # Бинарный поиск по ответу (время)
+│ ├── exponential/
+│ │ ├── search_exponential_index.go # Экспоненциальный поиск индекса
+│ │ └── search_exponential_range.go # Экспоненциальный поиск диапазона
+│ └── ternary/
+│ ├── search_ternary_iterative.go # Тернарный поиск (итеративный)
+│ └── search_ternary_recursive.go # Тернарный поиск (рекурсивный)
 ├── twopointers/
-│   ├── two_pointers_move_zeroes.go            # Перемещение нулей в конец
-│   └── two_pointers_remove_element.go         # Удаление элемента из массива
-├── linear/                                    # 🔜 В планах
-├── recursion/                                 # 🔜 В планах
-├── oop/                                       # 🔜 В планах
-├── io/                                        # 🔜 В планах
+│ ├── two_pointers_move_zeroes.go # Перемещение нулей в конец
+│ └── two_pointers_remove_element.go # Удаление элемента из массива
+├── dynamic/ # 🔜 Динамическое программирование
+├── graphs/ # 🔜 Графы (BFS, DFS)
+├── greedy/ # 🔜 Жадные алгоритмы
 ├── go.mod
-├── input.txt                                  # 📄 Файл с входными данными
+├── input.txt # 📄 Файл с входными данными
 └── README.md
 ```
 
